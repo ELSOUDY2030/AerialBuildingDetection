@@ -53,7 +53,7 @@ def run_inference(model_path, image_path, slice_height, slice_width, confidence_
 
   # Display the image
   print(f"Number of buildings detected: {building_count}")
-  cv2.imwrite('output_image.jpg', image)
+  cv2.imwrite('output/output_image.jpg', image)
   print(f"Save output_image.jpg")
 
 
